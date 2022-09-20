@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "420410317553",
+    "project_id": "ios-projects-6078d",
+    "storage_bucket": "ios-projects-6078d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420410317553:android:7b12c10b0bf0ba72942750",
+        "android_client_info": {
+          "package_name": "com.novus_pax.gmail_integration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420410317553-tbd9spo98cua23o3krie5hvkise7iq24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeOJdVULxrCK4s7zWEqK7i7QBCOmwr3Jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420410317553-tbd9spo98cua23o3krie5hvkise7iq24.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420410317553-lcdd7qf9d2d1poh9eaidirusqnpjbk1t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.novuspax.gmailIntegration"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
