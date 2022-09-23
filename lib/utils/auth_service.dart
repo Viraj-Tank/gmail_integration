@@ -11,9 +11,18 @@ class AuthService {
     final GoogleSignInAccount? googleUser =
         await GoogleSignIn(scopes: ['email']).signIn();
 
+        // googleUser?.id;
+
+
+
     //obtain the auth details from the request
     final GoogleSignInAuthentication googleAuth =
         await googleUser!.authentication;
+
+    // googleAuth.accessToken;
+    // googleAuth.idToken;
+
+
 
     //create a new credential
     final credential = GoogleAuthProvider.credential(
@@ -23,6 +32,11 @@ class AuthService {
 
     //once signed in return the usercredential
     return await FirebaseAuth.instance.signInWithCredential(credential);
+
+    // FirebaseAuth.instance.currentUser?.displayName;
+    // FirebaseAuth.instance.currentUser?.email;
+    
+
   }
 
   handleAuthState() {
